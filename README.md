@@ -116,7 +116,7 @@ PUT _index_template/wldomain_template
 
 5. Create startup class 
 
-Modify connect command for you Weblogic
+(Modify connect command for you Weblogic)
 ```python
 connect('weblogic','Welcome1','t3://127.0.0.1:8080')
 edit()
