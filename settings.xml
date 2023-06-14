@@ -1,0 +1,24 @@
+<settings>
+<server>
+    <id>maven.oracle.com</id>
+    <username>restordrull@gmail.com</username>
+    <password>mifzak-judni5-nizviC</password>
+    <configuration>
+        <basicAuthScope>
+            <host>ANY</host>
+            <port>ANY</port>
+            <realm>OAM 11g</realm>
+        </basicAuthScope>
+        <httpConfiguration>
+            <all>
+                <params>
+                    <property>
+                        <name>http.protocol.allow-circular-redirects</name>
+                        <value>%b,true</value>
+                    </property>
+                </params>
+            </all>
+        </httpConfiguration>
+    </configuration>
+</server>
+</settings>

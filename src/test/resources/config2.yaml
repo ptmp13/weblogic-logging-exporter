@@ -1,0 +1,15 @@
+# Copyright (c) 2019, 2021, Oracle and/or its affiliates.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+
+# Test config file
+# This one has an upper case index name, which should be converted to lower case
+
+publishHost: host1
+publishPort: 1234
+weblogicLoggingExporterFilters:
+- FilterExpression:  MSGID != 'BEA-000449'
+weblogicLoggingExporterEnabled: false
+weblogicLoggingExporterSeverity: Warning
+weblogicLoggingExporterBulkSize: 2
+weblogicLoggingIndexName: INDEX2
+domainUID: domain1
